@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def only_diff_elements(set_1, set_2):
-    return (set_1 ^ set_2)
+def multiply_by_2(a_dictionary):
+    mapped_dict = {key: value * 2 for key, value in a_dictionary.items()}
+    return mapped_dict
