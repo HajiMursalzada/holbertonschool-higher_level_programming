@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-def only_diff_elements(set_1, set_2):
-    return (set_1 ^ set_2)
+def print_sorted_dictionary(a_dictionary):
+    sorted_keys = sorted(a_dictionary)
+    for i in sorted_keys:
+        print(f"{i}: {a_dictionary[i]}")

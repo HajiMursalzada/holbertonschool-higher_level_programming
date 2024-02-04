@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def only_diff_elements(set_1, set_2):
-    return (set_1 ^ set_2)
+def update_dictionary(a_dictionary, key, value):
+    a_dictionary[key] = value
+    return a_dictionary
