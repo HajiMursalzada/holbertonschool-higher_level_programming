@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ Lists all states with a name starting with "N" from
-the database hbtn_0e_0_usa """
+the Database hbtn_0e_0_usa """
 
 
 if __name__ == "__main__":
