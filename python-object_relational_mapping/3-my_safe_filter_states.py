@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-""" Displays all values in the states 
-table of the database hbtn_0e_0_usa
-whose name matches that supplied as argument """
+""" bla bla aaaasf jsanbfjsa"""
 
 if __name__ == "__main__":
     import sys
