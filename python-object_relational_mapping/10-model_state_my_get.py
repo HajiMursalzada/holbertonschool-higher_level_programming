@@ -3,8 +3,10 @@
 from the database hbtn_0e_6_usa """
 
 import sys
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
 from model_state import State
 
 if __name__ == "__main__":
@@ -14,11 +16,13 @@ if __name__ == "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    found = False
-    for state in session.query(State):
-        if state.name == sys.argv[4]:
-            print("{}".format(state.id))
-            found = True
-            break
-    if found is False:
+    tmp = None
+
+    for state in session.query(State).order_by(State.id):
+        if (sys.argv[4] == state.name):
+            tmp = state.id
+
+    if (tmp):
+        print(tmp)
+    else:
         print("Not found")
