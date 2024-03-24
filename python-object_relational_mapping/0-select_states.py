@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-""" Lists all states from 
-python3the database hbtn_0e_0_usa """
+""" Lists all states from python3 the database hbtn_0e_0_usa """
 
 if __name__ == "__main__":
     import sys
